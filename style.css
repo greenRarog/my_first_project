@@ -7,3 +7,18 @@ tfoot {
 A {   
     font-size:12px;
 }
+.sidebar {    
+    width: 300px;      
+    background-color: orange;
+}
+.content {        
+    padding: 30px;
+    width:750px;
+}
+.control {    
+    width:300px;
+    background-color: orange;
+}
+.main {
+    display: flex;   
+}

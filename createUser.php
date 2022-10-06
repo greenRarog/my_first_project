@@ -54,7 +54,7 @@ if (!empty($_POST['login']) and
         $id = mysqli_fetch_assoc($result)['id'];
         
         $newTimesheetName = 'timesheet_' . $id;
-        $query = "CREATE TABLE $newTimesheetName (id_user INT, time TIME, viziter VARCHAR(60), comment VARCHAR(60), date DATE)";
+        $query = "CREATE TABLE $newTimesheetName (id INT PRIMARY KEY AUTO_INCREMENT, id_user INT, time TIME, viziter VARCHAR(60), comment VARCHAR(60), date DATE)";
         mysqli_query($link, $query) or die(mysqli_error($link));
         
         session_start();

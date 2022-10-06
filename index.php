@@ -1,7 +1,7 @@
 <?php
 $url = $_SERVER['REQUEST_URI'];
 //echo $url . '<br>';
-echo "<link rel='stylesheet' href=/style.css>";
+
 
 $route = '/createUser';
 if (preg_match("#$route#", $url)) {

@@ -28,8 +28,8 @@ for ($i = ++$now; $i <= 20; $i++) {
 $tableContent .= '</tfoot>';
 $form ="
 <form action='' method='POST'>
-    <h2>" . $weekDay[date('w', time())] . ':  ' .  date('m-d  H:i', time()) . "</h2>
-    <table border='1'>
+    <h2>" . $weekDay[date('w', time())] . '  ' .  date('d-m', time()) . ' время ' . date('H:i', time()) . "</h2>
+    <table border='1' align='center'>
         <tr>
             <th>Время</th>
             <th>Посетитель</th>
