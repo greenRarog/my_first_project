@@ -1,13 +1,4 @@
 <?php
-$weekDay = [
-  1 => 'Понедельник',
-  2 => 'Вторник',
-  3 => 'Среда',
-  4 => 'Четверг',
-  5 => 'Пятница',
-  6 => 'Суббота',
-  7 => 'Воскресенье',  
-];
 
 $tableContent = '';
 $now = date('H', time());
@@ -27,8 +18,7 @@ for ($i = ++$now; $i <= 20; $i++) {
 }
 $tableContent .= '</tfoot>';
 $form ="
-<form action='' method='POST'>
-    <h2>" . $weekDay[date('w', time())] . '  ' .  date('d-m', time()) . ' время ' . date('H:i', time()) . "</h2>
+<form action='' method='POST'>    
     <table border='1' align='center'>
         <tr>
             <th>Время</th>

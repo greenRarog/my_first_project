@@ -7,18 +7,54 @@ tfoot {
 A {   
     font-size:12px;
 }
+.main {
+    background-color: #bddbf8;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
 .sidebar {    
     width: 300px;      
-    background-color: orange;
+    background-color: #6eb0f0;    
 }
-.content {        
+.content {            
     padding: 30px;
     width:750px;
 }
 .control {    
     width:300px;
-    background-color: orange;
+    background-color: #6eb0f0;
 }
-.main {
-    display: flex;   
+
+.cap {    
+    background-color: #2196f3;
+    height: 145px;
+    padding: 10px
 }
+.bodyHead {    
+    display: flex;
+    justify-content: space-between;
+}
+.today {    
+    color:white;
+    font-size: 35px;
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #2196f3;
+    height: 150px;
+    padding: 10px
+}
+.quote{
+    font-size: 12px;
+    color: white;
+    float:right;
+}
+
+
+.box {
+text-align: center;
+}
+

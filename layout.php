@@ -5,9 +5,9 @@
                 <link rel='stylesheet' href=/style.css>
 	</head>
 	<body>            
-	<header>
-		header
-	</header>                
+	<div class='cap'>
+            {{ header }}
+	</div>                
       <div class='main'>
         <div class='sidebar'>
             sidebar
@@ -20,8 +20,8 @@
           </div>    
       </div>
       
-	<footer>
-		footer
-	</footer>
+	<div class='footer'>
+		{{ footer }}
+	</div>
 	</body>
 </html>
